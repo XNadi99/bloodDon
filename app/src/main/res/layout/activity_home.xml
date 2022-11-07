@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Blood Donation"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/imageView3" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/images" />
+
+    <Button
+        android:id="@+id/callUs"
+        android:layout_width="343dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="60dp"
+        android:layout_weight="1"
+        android:backgroundTint="#E67F7F"
+        android:text="Call Us"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="344dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="12dp"
+        android:layout_weight="1"
+        android:backgroundTint="#E67F7F"
+        android:text="About"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/button3"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="342dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="12dp"
+        android:layout_weight="1"
+        android:backgroundTint="#E67F7F"
+        android:text="Register"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/callUs"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="@+id/callUs"
+        app:layout_constraintTop_toBottomOf="@+id/callUs" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="342dp"
+        android:layout_height="64dp"
+        android:layout_weight="1"
+        android:backgroundTint="#E67F7F"
+        android:text="Work hours"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/callUs"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="@+id/callUs"
+        app:layout_constraintTop_toBottomOf="@+id/button5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
